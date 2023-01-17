@@ -13,6 +13,27 @@
     --main-padding-bottom:100px;
     --section-background:#ececec;
 }
+::-webkit-scrollbar
+{
+    width: 16px
+}
+::-webkit-scrollbar-track
+{
+    background: #ececec;
+    border-radius: 100vm;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(#1787e0, #a9d4e2d9);
+    border-radius: 10%
+
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background:#0E64B4;
+
+}
+
 html
 {
     scroll-behavior: smooth;
