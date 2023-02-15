@@ -28,7 +28,7 @@ if ( index !== null)
 function showproduct(products)
 {
     main.innerHTML=''
-    products.forEach((product)=>{
+    products.map((product)=>{
 
         const {id,image,title}= product
         const productsElement = document.createElement('div')
